@@ -3,9 +3,9 @@ import { Terminal } from 'lucide-react';
 import SocialLinks from '../components/SocialLinks';
 import ExperienceSection from '../components/ExperienceSection';
 import SkillsSection from '../components/SkillsSection';
-import CodeStats from '../components/CodeStats';
 import CodingProfiles from '../components/CodingProfiles';
 import CodeMemoryGame from '../components/games/CodeMemoryGame';
+import ProjectsSection from '../components/ProjectsSection';
 
 export default function Home() {
   return (
@@ -39,7 +39,8 @@ export default function Home() {
 
         {/* Code Stats Section */}
         {/* <CodeStats /> */}
-
+        <ProjectsSection />
+        
         {/* Code Memory Game */}
         <div className="mb-12">
           <CodeMemoryGame />
